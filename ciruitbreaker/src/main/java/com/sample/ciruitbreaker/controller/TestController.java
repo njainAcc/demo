@@ -29,7 +29,7 @@ public class TestController {
 	  @GetMapping("/test")
 		public String testRestTemplateWithCircuitBreaker()
 		{
-			System.out.println("-----------getAll----------");
+			System.out.println("-----------getAll--- Changes-------");
 			RestTemplate restTemplate = new RestTemplate();
 			HttpHeaders headers = new HttpHeaders();
 			headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
